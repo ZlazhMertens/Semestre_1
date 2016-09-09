@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+#include<windows.h>
+main()
+{
+      int h,m,s;
+      for(h=0;h<24;h++)
+      {
+        for(m=0;m<60;m++)
+        {
+          for(s=0;s<60;s++)
+          {
+            printf("%3d:%3d:%3d\n",h,m,s);
+            Sleep(50);
+          }
+        }
+      }
+      getch();
+}
